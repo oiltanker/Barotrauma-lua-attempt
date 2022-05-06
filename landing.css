@@ -1,0 +1,125 @@
+body{
+    overflow: hidden;
+    font-size: 100%;
+    background-color: #777;
+}
+
+.common-docs{
+    z-index: 1;
+    text-justify: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    transform: skewX(-11deg);
+    transition-property: transform;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+    overflow: hidden;
+}
+#lua-docs{
+    left: -10%;
+    right: 50%;
+}
+#cs-docs{
+    right: -10%;
+    left: 50%;
+}
+
+#cs-docs::before,#lua-docs::before{
+    content: "";
+    background: url(bg.jpg) repeat;
+    background-size: 80%;
+    background-blend-mode: luminosity;
+    filter: blur(2px);
+    position: absolute;
+    height: 200%;
+    width: 200%;
+    transform: skewX(11deg);
+}
+#lua-docs::before{
+    background-color: rgba(49, 49, 135, 1);
+}
+#cs-docs::before{
+    background-color: rgba(105, 44, 120, 1);
+}
+
+.common-docs:hover{
+    z-index: 2;
+    font-size: 300%;
+    transform: skewX(-11deg) scale(1.05);
+}
+
+.inner-bg{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+}
+.inner-bg:hover{
+    background-color: rgba(255, 255, 255, 0.35);
+}
+
+.inner-docs{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    transform: skewX(11deg);
+    background: radial-gradient(circle, #222, rgba(0, 0, 0, 0));
+}
+
+
+@media only screen and (min-width: 1200px) {
+    .inner-docs img{
+        height: 30%;
+        width: auto;
+    }
+}
+@media only screen and (max-width: 1200px) {
+    body {
+        background-color: lightblue;
+    }
+    .common-docs{
+        transform: skewX(-9deg);
+    }
+    #cs-docs::before,#lua-docs::before{
+        transform: skewX(9deg);
+    }
+    .common-docs:hover{
+        transform: skewX(-9deg) scale(1.05);
+    }
+    .inner-docs{
+        transform: skewX(9deg);
+    }
+    .inner-docs img{
+        height: 30%;
+        width: auto;
+    }
+}
+@media only screen and (max-width: 900px) {
+    body {
+        background-color: lightblue;
+    }
+    .common-docs{
+        transform: skewX(0deg);
+    }
+    #cs-docs::before,#lua-docs::before{
+        transform: skewX(0deg);
+    }
+    .common-docs:hover{
+        transform: skewX(0deg) scale(1.05);
+    }
+    .inner-docs{
+        transform: skewX(0deg);
+    }
+    .inner-docs img{
+        height: auto;
+        width: 50%;
+    }
+}
