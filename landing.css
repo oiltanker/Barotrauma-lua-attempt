@@ -7,10 +7,9 @@ body{
 .common-docs{
     z-index: 1;
     text-justify: auto;
-    position: absolute;
+    position: fixed;
     top: 0;
     bottom: 0;
-    transform: skewX(-11deg);
     transition-property: transform;
     transition-duration: 0.5s;
     transition-timing-function: ease-in-out;
@@ -34,7 +33,6 @@ body{
     position: absolute;
     height: 200%;
     width: 200%;
-    transform: skewX(11deg);
 }
 #lua-docs::before{
     background-color: rgba(49, 49, 135, 1);
@@ -46,7 +44,7 @@ body{
 .common-docs:hover{
     z-index: 2;
     font-size: 300%;
-    transform: skewX(-11deg) scale(1.05);
+    transform: scale(1.05);
 }
 
 .inner-bg{
@@ -70,21 +68,33 @@ body{
     align-items: center;
     justify-content: center;
     position: relative;
-    transform: skewX(11deg);
     background: radial-gradient(circle, #222, rgba(0, 0, 0, 0));
 }
 
 
-@media only screen and (min-width: 1200px) {
+@media (min-width: 80em) {
+    .inner-docs img{
+        height: 30%;
+        width: auto;
+    }
+    .common-docs{
+        transform: skewX(-11deg);
+    }
+    #cs-docs::before,#lua-docs::before{
+        transform: skewX(11deg);
+    }
+    .common-docs:hover{
+        transform: skewX(-11deg) scale(1.05);
+    }
+    .inner-docs{
+        transform: skewX(11deg);
+    }
     .inner-docs img{
         height: 30%;
         width: auto;
     }
 }
-@media only screen and (max-width: 1200px) {
-    body {
-        background-color: lightblue;
-    }
+@media (max-width: 80em) {
     .common-docs{
         transform: skewX(-9deg);
     }
@@ -102,10 +112,7 @@ body{
         width: auto;
     }
 }
-@media only screen and (max-width: 900px) {
-    body {
-        background-color: lightblue;
-    }
+@media (max-width: 70em) {
     .common-docs{
         transform: skewX(0deg);
     }
