@@ -1,5 +1,0 @@
-var class_barotrauma_1_1_abilities_1_1_character_ability_apply_status_effects_to_last_ordered_character =
-[
-    [ "CharacterAbilityApplyStatusEffectsToLastOrderedCharacter", "class_barotrauma_1_1_abilities_1_1_character_ability_apply_status_effects_to_last_ordered_character.html#a7a52ce1c3a218d4444b0a0b5458a9f05", null ],
-    [ "ApplyEffect", "class_barotrauma_1_1_abilities_1_1_character_ability_apply_status_effects_to_last_ordered_character.html#a28ccc562cbf7c91ad011d369c5c31e5b", null ]
-];
