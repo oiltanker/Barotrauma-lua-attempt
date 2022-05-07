@@ -1,0 +1,26 @@
+var class_barotrauma_1_1_human_prefab =
+[
+    [ "HumanPrefab", "class_barotrauma_1_1_human_prefab.html#a40ea6fa54512ef5f35dad822df9cb3cf", null ],
+    [ "Dispose", "class_barotrauma_1_1_human_prefab.html#a5392e0fcc9c10367b2391f55d60dbd01", null ],
+    [ "GetCharacterInfo", "class_barotrauma_1_1_human_prefab.html#acc626ccb509fb04fdb86804dfbff09f4", null ],
+    [ "GetJobPrefab", "class_barotrauma_1_1_human_prefab.html#a29109028b530b74a83b9237da5cd2a34", null ],
+    [ "GetModuleFlags", "class_barotrauma_1_1_human_prefab.html#a7b289bae64f1d0c6578fdec2727e9856", null ],
+    [ "GetSpawnPointTags", "class_barotrauma_1_1_human_prefab.html#a3b0ad8d48349f2666c06d88218444e09", null ],
+    [ "GiveItems", "class_barotrauma_1_1_human_prefab.html#a08286df1cc943c048c6113d6b00f6ecc", null ],
+    [ "InitializeCharacter", "class_barotrauma_1_1_human_prefab.html#a7db6ca04818b518cb5fe0dd04ce9b65b", null ],
+    [ "CustomNPCSets", "class_barotrauma_1_1_human_prefab.html#a7069eded8b86d3bac1d5616ce7271457", null ],
+    [ "ItemSets", "class_barotrauma_1_1_human_prefab.html#a83a524a49521398af70599d5b9595c1f", null ],
+    [ "AimAccuracy", "class_barotrauma_1_1_human_prefab.html#ad8e737fc4bc17230279edd4e86876f89", null ],
+    [ "AimSpeed", "class_barotrauma_1_1_human_prefab.html#a518892facb9baf23596a188a02c57317", null ],
+    [ "Behavior", "class_barotrauma_1_1_human_prefab.html#ae8ed547e5d90fe6e3717676bd01c3af8", null ],
+    [ "CampaignInteractionType", "class_barotrauma_1_1_human_prefab.html#aef5dfca9d05cd4b29895e0ff492d602f", null ],
+    [ "Commonness", "class_barotrauma_1_1_human_prefab.html#a704b26feb342e3e6a03621be23ad7a77", null ],
+    [ "Element", "class_barotrauma_1_1_human_prefab.html#aea24e25dc6e4e536bd59b4c35b5e0ca8", null ],
+    [ "HealthMultiplier", "class_barotrauma_1_1_human_prefab.html#a32cc5ef67f79fea566b64c1b890f0eef", null ],
+    [ "HealthMultiplierInMultiplayer", "class_barotrauma_1_1_human_prefab.html#a6c5fba5336b4fb5f422072fccdf90bb0", null ],
+    [ "Job", "class_barotrauma_1_1_human_prefab.html#a1c25f5dd87ab32ea4ee1a63abaaa91bb", null ],
+    [ "ModuleFlags", "class_barotrauma_1_1_human_prefab.html#a622448c9a2216462c3dbcfa090589943", null ],
+    [ "PreferredOutpostModuleTypes", "class_barotrauma_1_1_human_prefab.html#aeeef7897ec244ba3d0ddc82736495a0f", null ],
+    [ "ReportRange", "class_barotrauma_1_1_human_prefab.html#afb79899c24735230248519b755e70b95", null ],
+    [ "SpawnPointTags", "class_barotrauma_1_1_human_prefab.html#ac8c7282eeac9301f7e685409ad8ae20e", null ]
+];
