@@ -1,0 +1,27 @@
+var class_barotrauma_1_1_crew_manager =
+[
+    [ "ActiveOrder", "class_barotrauma_1_1_crew_manager_1_1_active_order.html", "class_barotrauma_1_1_crew_manager_1_1_active_order" ],
+    [ "CrewManager", "class_barotrauma_1_1_crew_manager.html#a5bd93b58549caed28bf7b073fe7ff4e1", null ],
+    [ "AddCharacter", "class_barotrauma_1_1_crew_manager.html#ae8a0fe209ff7a7715bcde969e0b6c281", null ],
+    [ "AddCharacterElements", "class_barotrauma_1_1_crew_manager.html#adb08a691878317e29db5b31d065c0943", null ],
+    [ "AddCharacterInfo", "class_barotrauma_1_1_crew_manager.html#a72a37de59db99a12512262b03bb09b90", null ],
+    [ "AddConversation", "class_barotrauma_1_1_crew_manager.html#a9891876a1042a9ea72e77f2a210c0815", null ],
+    [ "AddOrder", "class_barotrauma_1_1_crew_manager.html#a810c9eb12253d9281fceb4c355051e60", null ],
+    [ "ClearCurrentOrders", "class_barotrauma_1_1_crew_manager.html#a3e6100c9c45511b5059138c85e467e79", null ],
+    [ "FireCharacter", "class_barotrauma_1_1_crew_manager.html#a44dc75a769c5e61db3b248b9e843d5d9", null ],
+    [ "GetCharacterInfos", "class_barotrauma_1_1_crew_manager.html#a4094a1dbae8958a8cde05998f74366d8", null ],
+    [ "GetCharacters", "class_barotrauma_1_1_crew_manager.html#a2b3b31aea9ccc0d7b269e86885840768", null ],
+    [ "InitRound", "class_barotrauma_1_1_crew_manager.html#a547b857d69415d63688da7214899cee0", null ],
+    [ "LoadActiveOrders", "class_barotrauma_1_1_crew_manager.html#a4fb27405cb5c0372984a82dbaf77b823", null ],
+    [ "RemoveCharacterInfo", "class_barotrauma_1_1_crew_manager.html#a31cc70af2c8bea251a70bb71cbc46910", null ],
+    [ "RenameCharacter", "class_barotrauma_1_1_crew_manager.html#acfa9b3fa4fce2571c80f83bb3432f714", null ],
+    [ "SaveMultiplayer", "class_barotrauma_1_1_crew_manager.html#a88c1969f68ac67c7388cb598163e75ce", null ],
+    [ "ServerWriteActiveOrders", "class_barotrauma_1_1_crew_manager.html#accfa6af0c2ebcf66f6ec89966491e316", null ],
+    [ "Update", "class_barotrauma_1_1_crew_manager.html#a069277cdb162149c586077293c3bf60f", null ],
+    [ "ActiveReadyCheck", "class_barotrauma_1_1_crew_manager.html#acb40907bdccca87e796a56df4c55feca", null ],
+    [ "ActiveOrders", "class_barotrauma_1_1_crew_manager.html#a532543fd61e086640f77da23f1936a36", null ],
+    [ "ActiveOrdersElement", "class_barotrauma_1_1_crew_manager.html#ab328d14d693530afeda8a35336843205", null ],
+    [ "CharacterInfos", "class_barotrauma_1_1_crew_manager.html#aa73c6b0df370a630a9bffcaed22d316f", null ],
+    [ "HasBots", "class_barotrauma_1_1_crew_manager.html#a844938b2f9924e0af19b4aadf33f0e7d", null ],
+    [ "IsSinglePlayer", "class_barotrauma_1_1_crew_manager.html#a15fc8094b3d136cd150d107bf2e08871", null ]
+];

@@ -1,0 +1,26 @@
+var class_barotrauma_1_1_background_creature_prefab =
+[
+    [ "BackgroundCreaturePrefab", "class_barotrauma_1_1_background_creature_prefab.html#a2e214a63d28ceb8f164305398fcb41ee", null ],
+    [ "GetCommonness", "class_barotrauma_1_1_background_creature_prefab.html#a85c5ccbb19a0424b60511cace9e212a1", null ],
+    [ "Config", "class_barotrauma_1_1_background_creature_prefab.html#a726c55ba9d076438215c82aab63d25b4", null ],
+    [ "DeformableSprite", "class_barotrauma_1_1_background_creature_prefab.html#a510db2aa5412441089c0698642b784ce", null ],
+    [ "Name", "class_barotrauma_1_1_background_creature_prefab.html#a0e1693167e0dd14b5562a6b2a90bf73b", null ],
+    [ "OverrideCommonness", "class_barotrauma_1_1_background_creature_prefab.html#a3c873236b2af1137b1d72f703b31b96f", null ],
+    [ "Sprite", "class_barotrauma_1_1_background_creature_prefab.html#a97df07ea95196aacb197250b261aa6eb", null ],
+    [ "Commonness", "class_barotrauma_1_1_background_creature_prefab.html#a1b84410dc1b5608d1c2d3c320ba0cc33", null ],
+    [ "DisableFlipping", "class_barotrauma_1_1_background_creature_prefab.html#a23449879a1530cbc43cd557395092cb9", null ],
+    [ "DisableRotation", "class_barotrauma_1_1_background_creature_prefab.html#a4cb03b6128b7ecf32e312f468cff7971", null ],
+    [ "FlashDuration", "class_barotrauma_1_1_background_creature_prefab.html#a9178890b07ea84269f2c10c6ab701509", null ],
+    [ "FlashInterval", "class_barotrauma_1_1_background_creature_prefab.html#abe55f7caf2e8a4a9ad393bef30ae80fe", null ],
+    [ "MaxCount", "class_barotrauma_1_1_background_creature_prefab.html#aaa6e96d2f72f6ac62d4afba76a11dc24", null ],
+    [ "MaxDepth", "class_barotrauma_1_1_background_creature_prefab.html#a777fc85a76c37ef2eba585f564f1446d", null ],
+    [ "MinDepth", "class_barotrauma_1_1_background_creature_prefab.html#a686421099036a098a6a1ee0ecb9fb7d8", null ],
+    [ "Scale", "class_barotrauma_1_1_background_creature_prefab.html#a48161deda72577e2a1e56492c9ee5c68", null ],
+    [ "Speed", "class_barotrauma_1_1_background_creature_prefab.html#ac1f17b5c3aede926248dffb755a21a2c", null ],
+    [ "SwarmCohesion", "class_barotrauma_1_1_background_creature_prefab.html#a7a53c748fafd5699d710830f725b48e1", null ],
+    [ "SwarmMax", "class_barotrauma_1_1_background_creature_prefab.html#afe05eb52796b4746c9931a4fc06ca555", null ],
+    [ "SwarmMin", "class_barotrauma_1_1_background_creature_prefab.html#a326f77d821f240039ca4375016f461a9", null ],
+    [ "SwarmRadius", "class_barotrauma_1_1_background_creature_prefab.html#ad5c6bfe51ab95af8c8b56e09b612a5c4", null ],
+    [ "WanderAmount", "class_barotrauma_1_1_background_creature_prefab.html#a89bdb8a3de637cc7113bfd097137175d", null ],
+    [ "WanderZAmount", "class_barotrauma_1_1_background_creature_prefab.html#a38ab836dcd2f732fcbe94d5bfffbd6eb", null ]
+];
